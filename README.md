@@ -27,6 +27,6 @@ This response header indicates that whether the response can be shared with the 
 ### Syntax:
 Access-Control-Allow-Origin: *
 
-Access-Control-Allow-Origin: <origin>
+Access-Control-Allow-Origin: < origin >
 
 Access-Control-Allow-Origin: null
