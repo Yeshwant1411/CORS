@@ -20,3 +20,6 @@ It is a mechanism that uses HTTP headers to define Origins that the browser perm
 CORS uses 2 HTTP headers
 1. Access-Control-Allow-Origin
 2. Access-Control-Allow-Credentials
+
+### Access-Control-Allow-Origin:
+This response header indicates that whether the response can be shared with the requesting code from the given origin.
