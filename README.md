@@ -33,3 +33,6 @@ Access-Control-Allow-Origin: null
 
 ## Note: 
 Access-Control-Allow-Origin it allows us to access only public pages in the application, in order to access authenticated pages we need to use Access-Control-Allow-Credentials header.
+
+### Access-Control-Allow-Credentials:
+This response header allows cookies (or other user credentials) to be included in cross-origin requests.
