@@ -36,3 +36,9 @@ Access-Control-Allow-Origin it allows us to access only public pages in the appl
 
 ### Access-Control-Allow-Credentials:
 This response header allows cookies (or other user credentials) to be included in cross-origin requests.
+
+### Syntax:
+Access-Control-Allow-Credentials: true
+
+## Note:
+If the server is configured with wildcard character ("*") as the value of Access-Control-Allow-Origin header, then the use of credentials is not allowed.
